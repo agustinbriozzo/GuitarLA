@@ -1,8 +1,25 @@
-# React + Vite
+# Tienda de Guitarras 🎸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una aplicación de tienda de guitarras creada con Vite + React. Permite a los usuarios explorar una variedad de guitarras, ver detalles de cada una y agregarlas a un carrito de compras. El carrito es persistente gracias a `localStorage`, lo que significa que los elementos no se pierden incluso si se recarga la página o se cierra el navegador.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Link a la demo en Netlify](https://abguitars.netlify.app/)
+
+## Características
+
+- **Visualización de productos**: Muestra una lista de guitarras con su nombre, precio y descripción.
+- **Carrito de compras**:
+  - Agregar guitarras al carrito.
+  - Incrementar o decrementar la cantidad de cada guitarra en el carrito.
+  - Eliminar guitarras específicas o vaciar todo el carrito.
+  - Persistencia del carrito utilizando `localStorage`.
+- **Diseño responsivo**: Adaptable a diferentes tamaños de pantalla.
+
+## Tecnologías utilizadas
+
+- **Vite**: Herramienta de construcción rápida para desarrollo.
+- **React**: Biblioteca de JavaScript para la construcción de interfaces de usuario.
+- **JavaScript**
+- **CSS**: Estilizado de la aplicación.
+- **LocalStorage**: Para mantener la persistencia del carrito de compras.
